@@ -28,14 +28,14 @@ function loadTableData(dataArray) {
     }
 
 if (loadFiltData == 'y') {
-    console.log("in filt data y")
+    console.log("In filter data")
     finalData = filtData;
     }
   else {
-    console.log("in filt data n")
+    console.log("Not in filter data")
     finalData = tableData;
     }
-  console.log("First time main logic")
+  console.log("Main Logic")
   console.log(finalData)
   tbody.html("");
   loadTableData(finalData)
@@ -55,11 +55,11 @@ if (loadFiltData == 'y') {
    console.log(filtData) 
    loadFiltData = "y";
    if (loadFiltData == 'y') {
-    console.log("in filt data y")
+    console.log("In filter data")
     finalData = filtData;
     }
   else {
-    console.log("in filt data n")
+    console.log("Not in filter data")
     finalData = tableData;
     }
   console.log(finalData)
